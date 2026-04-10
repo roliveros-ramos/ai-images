@@ -2,20 +2,19 @@
 Created by Ricardo Oliveros-Ramos with Banana Pro IA, 2025. Zenodo: doi:10.5281/zenodo.19499928
 
 AI-GENERATED IMAGE METADATA
-===========================
+---------------------------
 
 
-1) Generator
-------------
-Tool / provider: BananaProAI
-Product / model: Nano Banana Pro (BananaProAI image generator)
+1) **Generator:**
 
-2) Date generated
------------------
-2025-12-23
+  Tool / provider: BananaProAI
+  
+  Product / model: Nano Banana Pro (BananaProAI image generator)
 
-3) Prompt
----------
+2) **Date generated:** 2025-12-23
+
+3) **Prompt:**
+
 Naturalistic, painterly illustration of the Humboldt Current ecosystem along the Pacific coast of southern Peru to northern Chile (14°S–30°S), viewed at ocean surface level under soft dawn light.
 
 A highly productive upwelling system with clear, cool blue-green water. Large, dense schools of anchoveta (Engraulis ringens) swim just below the surface, forming cohesive, dynamic shoals. Anchoveta morphology extremely realistic: slender body, correct length-to-depth ratio, silvery reflective flanks, relatively large eye — uniform and realistic across the entire school.
@@ -35,8 +34,8 @@ Painterly but realistic style, fine brush textures, detailed water surface refle
 
 Scientific-report cover quality, cinematic framing, no text, no labels, no logos.
 
-4) Key settings / technical parameters
--------------------------------------
+4) **Key settings / technical parameters**
+
 Aspect ratio: 3:2 (landscape)
 Resolution: 4K
 Model: Nano Banana Pro
@@ -47,10 +46,6 @@ Upscaler: not specified
 Negative prompt: not explicitly used (constraints embedded in prompt: “no text, no labels, no logos”)
 Other notes: stylistic constraints embedded directly in prompt (painterly realism, scientific illustration quality)
 
-5) Post-processing
-------------------
-None (image used as generated)
+5) **Post-processing:** None (image used as generated)
 
-6) Intended use
----------------
-Scientific illustration for report or presentation cover (introductory / conceptual figure, not representing empirical data)
+6) **Intended use:** Scientific illustration for report or presentation cover (introductory / conceptual figure, not representing empirical data)
