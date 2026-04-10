@@ -9,9 +9,29 @@ format:
   pdf:
     toc: true
     toc-depth: 3
+    papersize: a4
+    geometry:
+      - margin=2.5cm
 execute:
   echo: false
+abstract: |
+  These guidelines describe how to document, archive, license, and cite AI-generated images for scientific use in a transparent and reproducible way. They provide practical recommendations on metadata, rights, repositories, licences, and credit formats for use in slides, posters, papers, and reports. As an illustrative example, @fig-ai-humboldt presents an AI-generated depiction of the Humboldt Current ecosystem, used here as a visual entry point to these guidelines. Beyond its illustrative role, the figure also demonstrates the recommended citation practice for AI-generated images in scientific contexts, including clear attribution of the creator, the tool used, the year of creation, and a persistent identifier for reproducibility. This format ensures transparency, proper attribution, and long-term accessibility, and is the standard approach recommended throughout this document. 
 ---
+
+::: {#fig-ai-humboldt fig-alt="Naturalistic AI-generated illustration of the Humboldt Current ecosystem along the Pacific coast of southern Peru to northern Chile, showing anchoveta schools, purse-seine fishing activity, seabirds, and a South American sea lion in a productive upwelling system."}
+
+![](examples/humboldt-anchoveta-upwelling/humboldt-anchoveta-upwelling.png){width="100%" fig-align="center"}
+
+AI-generated illustration of the Humboldt Current ecosystem used as an example of recommended citation practice for AI-generated images. Created by Ricardo Oliveros-Ramos with Banana Pro IA, 2025. Zenodo: doi:10.5281/zenodo.19499928
+:::
+
+## 0) Workflow overview
+
+The recommended workflow for handling AI-generated images in scientific contexts is straightforward. First, once an image has been generated, the essential metadata should be recorded immediately, including the generator used, the date, the prompt, any relevant technical settings, the intended use of the figure, and any post-processing applied. This ensures that the origin and production context of the image are not lost.
+
+Next, the image and its metadata should be archived in a stable repository such as Zenodo, OSF, or an institutional repository, ideally with a DOI. At that stage, an explicit licence should be assigned, with CC BY 4.0 recommended by default for academic use. Before dissemination, the image should also be checked for possible third-party rights issues, such as recognisable people, logos, copyrighted characters, or protected source material.
+
+Finally, whenever the image is used in slides, posters, reports, or manuscripts, it should be credited in a consistent and transparent way. The citation should identify the creator, the AI tool, the year, and the repository DOI. In this way, AI-generated images can be used as documented, citable, and reusable research assets rather than as untraceable illustrations.
 
 ::: {#fig-ai-guidelines-example fig-alt="Infographic showing a workflow for responsible use of AI-generated images in research: AI image → metadata → repository+DOI → CC BY 4.0 → slide/paper caption; includes a reminder to check third-party rights."}
 
@@ -20,7 +40,6 @@ execute:
 Workflow to document an AI-generated image for scientific use. *Source:* AI image (ChatGPT/OpenAI, 2026), CC BY 4.0. Zenodo: doi:10.5281/zenodo.XXXXXXX
 
 :::
-
 ## 1) Minimum metadata to record
 
 After creating the image, store this in a `README.txt` next to the image, or in the repository description.
@@ -32,6 +51,7 @@ After creating the image, store this in a `README.txt` next to the image, or in 
 - **Key settings** (if available): aspect ratio, seed, upscaler, negative prompt, etc.
 - **Post-processing**: what was changed (crop, colour, labels, compositing) + software used
 - **Intended use**: decorative/intro illustration vs scientific/interpretive figure
+
 
 ## 2) Rights and reuse: what you typically get from common AI-image generators
 
@@ -111,7 +131,7 @@ Use the Zenodo DOI as the stable source.
 
 AI images used in scientific outputs must be clearly **illustrative** unless explicitly labelled as synthetic/constructed content; never present AI imagery as an observation or measurement.
 
-## Appendix: One-page checklist
+## Appendix: Checklist
 
 - [ ] Metadata captured (tool, date, prompt, settings, edits)?
 - [ ] Third‑party rights checked (people, logos, copyrighted characters, inputs)?
