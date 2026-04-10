@@ -1,7 +1,9 @@
+![](humboldt-anchoveta-upwelling.png){width="100%" fig-align="center"}
+Created by Ricardo Oliveros-Ramos with Banana Pro IA, 2025. Zenodo: doi:10.5281/zenodo.19499928
+
 AI-GENERATED IMAGE METADATA
 ===========================
 
-Created by Ricardo Oliveros-Ramos with Banana Pro IA, 2025. Zenodo: doi:10.5281/zenodo.19499928
 
 1) Generator
 ------------
